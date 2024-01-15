@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans,
+      Arial, sans-serif;
+}
+.custom-container {
+    padding: 20px;
+    margin-top: 140px;
+    margin-bottom: 140px;
+  }
+  
+  .custom-login {
+    width: 380px;
+    height: 420px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-radius: 8px;
+  }
+  .custom-login img {
+    width: 150px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .custom-email,
+  .custom-password {
+    margin-top: 15px;
+  }
+  
+  .custom-label {
+    margin: 0;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .custom-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .custom-text{
+    text-align: center;
+    margin-top: 15px;
+    
+  }
+  .custom-text a {
+    
+    text-decoration: none;
+  }
+  
+  .custom-link {
+    color: #f41b18;
+    font-weight: 600;
+  }
+  
+  .custom-btn-container {
+    margin-top: 15px;
+  }
+  
+  .custom-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #006b4b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

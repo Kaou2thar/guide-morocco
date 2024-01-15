@@ -1,0 +1,79 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+  body, h1, h2, h3, p,
+  label,input,select,button {
+    border: 0;
+    font-size: 100%;
+  }
+  .label {
+    color: black;
+  }
+    form.login {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  form.login .logo {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+  
+  form.login select,
+  form.login input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  form.login button {
+    width: 100%;
+    padding: 12px;
+    color: #fff;
+    background-color: #006b4b;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login span{
+      color: red;
+  }
+  
+  .login a {
+      color: #f41b18;
+      font-weight: bold;
+      text-decoration: none;
+  }
+  
+  .sign-in{
+      text-align: center;
+  }
+    form.login .logo {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  form .login a {
+    color: #f41b18;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  form .login a:hover {
+    text-decoration: underline;
+  }
+  

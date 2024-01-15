@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="ccc/tourists.css"/>
+  <link rel="stylesheet" href="ccc/footer.css"/>
+  <script src="https://kit.fontawesome.com/d21984378b.js" crossorigin="anonymous"></script>
+  <title>GUIDEMORROCCO - Guide touristique pour visiter le Maroc</title>
+</head>
+
+<body>
+  <!----------------------------------------------------|| header ||-------------------------------------------------->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top w-100">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img src="img/logo.png" alt="logo" width="130px" class="img-fluid ms-5">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav pt-2 mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item">
+              <a class=" nav-link text-success fw-semibold  me-4" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success fw-semibold me-4" href="Hotels.html">Hotels</a>
+            </li>
+
+            <li class="long-nav-item">
+              <a class="nav-link text-success fw-semibold me-4" href="car.html">Car rental
+                agencies</a>
+            </li>
+            <li class="long-nav-item">
+              <a class="nav-link text-danger fw-semibold me-4" href="Tourists.html">Tourist
+                guides</a>
+            </li>
+            <li class="long-nav-item">
+              <a class="nav-link text-success fw-semibold me-4" href="info.html">Practical infos
+              </a>
+            </li>
+            <li class="long-nav-item">
+              <a class="nav-link text-success fw-semibold me-4" href="sign.html">sign in
+              </a>
+            </li>
+          </ul>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!----------------------------------------------------||  main  ||-------------------------------------------------->
+  <main>
+    <section class="content row ">
+      <aside class="col-xl-3 col-12 px-5 pe-xl-5 ">
+        <form class="">
+          <div class="filter">
+            <h4>Filter </h4>
+            <i class="fa-solid fa-filter fa-xl" style="color: #ffffff;"></i>
+          </div>
+          <div class="form_search row ">
+            <div class="col-xl-12 col-lg-4 col-md-12 col-sm-12 col-12 ">
+              <select class="form-select " id="ville">
+                <option>Select a city</option>
+                <option value="1">Marrakech</option>
+                <option value="2">Rabat</option>
+                <option value="4">Fès</option>
+                <option value="5">Agadir</option>
+                <option value="6">Tétouan</option>
+                <option value="11">Salé</option>
+                <option value="13">Casablanca</option>
+                <option value="14">Tanger</option>
+                <option value="15">Saidia</option>
+                <option value="16">Maroc</option>
+                <option value="17">Laayoune</option>
+                <option value="18">Essaouira</option>
+                <option value="19">Taroudant</option>
+                <option value="20">Tangier</option>
+                <option value="21">Meknès</option>
+                <option value="22">Oujda-Angad</option>
+                <option value="23">Kenitra</option>
+                <option value="24">Taza</option>
+                <option value="25">Nador</option>
+
+
+                <option value="26">Chefchaouen</option>
+                <option value="27">Ifrane</option>
+                <option value="28">Al-Hoceima</option>
+                <option value="29">Taroudannt</option>
+                <option value="30">undefined</option>
+                <option value="31">Temara</option>
+              </select>
+            </div>
+
+            <div class="col-xl-12 col-md-6">
+              <h5 class="category">Search by category</h5>
+              <div class="form-check ">
+                <a href="Hotels.html">
+                  <input class="form-check-input" type="radio" name="category" id="category2" checked="">
+                  <label class="form-check-label" for="category2">Hotels</label>
+                </a>
+              </div>
+              <div class="form-check">
+                <a href="car.html">
+                  <input class="form-check-input" type="radio" name="category" id="category2">
+                  <label class="form-check-label" for="category2">Car Rental Agencies</label>
+                </a>
+              </div>
+              <div class="form-check ">
+                <a href="Tourists.html">
+                  <input class="form-check-input" type="radio" name="category" id="category4">
+                  <label class="form-check-label" for="category4">Tourist Guides</label>
+                </a>
+              </div>
+              <div class="form-check ">
+                <a href="info.html">
+                  <input class="form-check-input" type="radio" name="category" id="category3">
+                  <label class="form-check-label" for="category3">Practical Infos</label>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 px-3">
+            <button class="btn btn-danger col-12 fw-semibold" style="height: 50px;">Search</button>
+          </div>
+        </form>
+      </aside>
+      <div class=" col-xl-9 col-10 mx-auto pt-4 ">
+        <div class="row ">
+          <div class="col-xl-3  col-lg-4 col-md-6 col-12 pb-4">
+            <div class="custom">
+              <div class="custom-img">
+                <img src="img/Maroc Tourisme Rural.jpg" alt="Maroc Tourisme Rural">
+              </div>
+              <div class="custom-text">
+                <a href="#">
+                  <h5>
+                    Maroc Tourisme Rural
+                  </h5>
+                </a>
+                <div class="custom-part">
+                  <p class="custom-part-one">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Rabat
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3  col-lg-4 col-md-6 col-12 pb-4">
+            <div class="custom">
+              <div class="custom-img">
+                <img src="img/Explore Agadir.png" alt="Explore Agadir">
+              </div>
+              <div class="custom-text">
+                <a href="#">
+                  <h5>
+                    Explore Agadir
+                  </h5>
+                </a>
+                <div class="custom-part">
+                  <p class="custom-part-one">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Agadir
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3  col-lg-4 col-md-6 col-12 pb-4">
+            <div class="custom">
+              <div class="custom-img">
+                <img src="img/Guide Your Trip.png" alt="guide-morocco">
+              </div>
+              <div class="custom-text">
+                <a href="#">
+                  <h5>
+                    Guide Your Trip
+                  </h5>
+                </a>
+                <div class="custom-part">
+                  <p class="custom-part-one">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Maroc
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3  col-lg-4 col-md-6 col-12 pb-4">
+            <div class="custom">
+              <div class="custom-img">
+                <img src="img/Hors Circuit.jpg" alt="Hors Circuit">
+              </div>
+              <div class="custom-text">
+                <a href="#">
+                  <h5>
+                    Hors Circuit
+                  </h5>
+                </a>
+                <div class="custom-part">
+                  <p class="custom-part-one">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Maroc
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3  col-lg-4 col-md-6 col-12 pb-4">
+            <div class="custom">
+              <div class="custom-img">
+                <img src="img/Visitmorocco.png" alt="Visitmorocco">
+              </div>
+              <div class="custom-text">
+                <a href="#">
+                  <h5>
+                    Visit Morocco
+                  </h5>
+                </a>
+                <div class="custom-part">
+                  <p class="custom-part-one">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Maroc
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3  col-lg-4 col-md-6 col-12 pb-4">
+            <div class="custom">
+              <div class="custom-img">
+                <img src="img/Watoosee.png" alt="Watoosee">
+              </div>
+              <div class="custom-text">
+                <a href="#">
+                  <h5>
+                    Watoosee
+                  </h5>
+                </a>
+                <div class="custom-part">
+                  <p class="custom-part-one">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Maroc
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3  col-lg-4 col-md-6 col-12 pb-4">
+            <div class="custom">
+              <div class="custom-img">
+                <img src="img/Alibabuy.jpg" alt="Alibabuy">
+              </div>
+              <div class="custom-text">
+                <a href="#">
+                  <h5>
+                    Alibabuy
+                  </h5>
+                </a>
+                <div class="custom-part">
+                  <p class="custom-part-one">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Maroc
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+
+    </section>
+
+  </main>
+  <!----------------------------------------------------|| footer ||-------------------------------------------------->
+  <footer>
+    <section>
+        <div class="row container mx-auto w-100">
+            <div class="col-md-6 col-lg-4 ">
+                <div class="cont">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo"></a>
+                    <p>
+                        Explore the wonders of Morocco with our tour guide. From imperial
+                        cities to spectacular deserts, immerse yourself in the cultural
+                        richness and natural beauty of this enchanting country.
+                    </p>
+                    <div class="follow">
+                        <h6>Follow us on :</h6>
+                        <i class="fa-brands fa-facebook fa-xl"></i>
+                        <i class="fa-brands fa-instagram fa-xl"></i>
+                        <i class="fa-brands fa-linkedin fa-xl"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-2 ">
+                <div class="Categories">
+                    <h4>Our Categories</h4>
+                    <p>
+                        <a href="Hotels.html">Hotels</a>
+                    </p>
+                    <p>
+                        <a href="car.html">Car rental agencies</a>
+                    </p>
+                    <p>
+                        <a href="Tourists.html">Tourist guides</a>
+                    </p>
+                    <p>
+                        <a href="info.html">Practical
+                            infos</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-2">
+                <div class="Categories">
+                    <h4>Quick links</h4>
+                    <p>
+                        <a href="index.html">Home</a>
+                    </p>
+                    <p>
+                        <a href="sign.html">Sign in</a>
+                    </p>
+                    <p>
+                        <a href="login.html">
+                            Sign up</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="Categories">
+                    <h4>Do you have any questions?</h4>
+                    <p> <i class="fa fa-phone" style="color: rgb(194, 20, 20);"></i>
+                        +212 625 856 345
+                    </p>
+                   
+                    <p> <i class="fa-solid fa-envelope" style="color: #c41717;"></i>
+                        guidemorrocco@gmail.com
+
+                    </p>
+            </div>
+        </div>
+        </div>
+        <div >
+            <div class="copy">
+                <p>
+                    Copyright © 2023 GUIDEMORROCCO.
+                </p>
+            </div>
+        </div>
+    </section>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    </body>
+    </html>
