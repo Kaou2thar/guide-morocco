@@ -3,9 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+  overflow-x: hidden;
+  padding-right: 20px;
+}
 section {
   padding-top: 70px;
 }
+
 .content {
   padding-top: 40px;
   padding-bottom: 40px;
